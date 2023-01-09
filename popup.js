@@ -15,9 +15,9 @@ function select() {
   let targetCurrency = "USD";
   let baseValue = 0;
   let targetValue = 0;
-  let allCurrencies = ["RUB", "BYN", "USD", "EUR", "BTC"];
-  let basedCurrencies = ["RUB", "BYN", "USD", "EUR", "BTC"];
-  let targetCurrencies = ["BYN", "USD", "EUR", "BTC"];
+  let allCurrencies = ["RUB", "UAH", "BYN", "USD", "EUR", "BTC"];
+  let basedCurrencies = ["RUB", "UAH", "BYN", "USD", "EUR", "BTC"];
+  let targetCurrencies = ["BYN", "UAH", "USD", "EUR", "BTC"];
   let mouse;
 
   document.addEventListener("dblclick", (e) => {
