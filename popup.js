@@ -253,7 +253,7 @@ function select() {
   }
 
   document.onselectionchange = function () {
-    const selection = document.getSelection().toString();
+    const selection = document.getSelection().toString().replace(",", ".");
     const isNumeric = (n) => !isNaN(n);
     if (selection.length > 0 && isNumeric(selection)) {
       baseValue = +selection;
